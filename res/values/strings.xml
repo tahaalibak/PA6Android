@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MemoryMap</string>
+    <string name="game_name">The Memory Game</string>
+    <string name="button1">Play Now!</string>
+    <string name="questions">Questions:</string>
+    <string name="answers">Answers</string>
+</resources>

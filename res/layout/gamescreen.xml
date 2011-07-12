@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android!",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband for more book information.
+-->
+
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:orientation="horizontal" 	
+	android:padding="30dip" >
+	<LinearLayout
+		android:layout_gravity="top"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:orientation="vertical" >
+	<TextView
+		android:id="@+id/welcome_title"
+		android:layout_gravity="center_horizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="25dip"
+		android:text="@string/app_name"
+		android:textSize="24.5sp" />
+		
+			<TextView
+		android:id="@+id/questions"
+		android:layout_gravity="left"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="25dip"
+		android:text="@string/questions"
+		android:textSize="20.5sp" />
+		
+	<TableLayout 
+ 		   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/keypad_q"
+   android:orientation="vertical"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:stretchColumns="*">
+   <TableRow>
+      <Button android:id="@+id/q1"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/q2"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/q3"
+         android:text=" ">
+      </Button>
+   </TableRow>
+   <TableRow>
+      <Button android:id="@+id/q4"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/q5"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/q6"
+         android:text=" ">
+      </Button>
+   </TableRow>
+   <TableRow>
+      <Button android:id="@+id/q7"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/q8"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/q9"
+         android:text=" ">
+      </Button>
+   </TableRow>
+	</TableLayout>
+	
+		<TextView
+		android:id="@+id/answers"
+		android:layout_gravity="left"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="25dip"
+		android:layout_marginBottom="25dip"
+		android:text="@string/answers"
+		android:textSize="20.5sp" />
+	
+	
+		<TableLayout 
+ 		   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/keypad_a"
+   android:orientation="vertical"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:stretchColumns="*">
+   <TableRow>
+      <Button android:id="@+id/a1"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/a2"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/a3"
+         android:text=" ">
+      </Button>
+   </TableRow>
+   <TableRow>
+      <Button android:id="@+id/a4"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/a5"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/a6"
+         android:text=" ">
+      </Button>
+   </TableRow>
+   <TableRow>
+      <Button android:id="@+id/a7"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/a8"
+         android:text=" ">
+      </Button>
+      <Button android:id="@+id/a9"
+         android:text=" ">
+      </Button>
+   </TableRow>
+	</TableLayout>
+	
+	</LinearLayout>
+</LinearLayout>
