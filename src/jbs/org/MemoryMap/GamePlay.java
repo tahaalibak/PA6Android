@@ -337,8 +337,10 @@ public class GamePlay extends Activity implements OnClickListener{
 	/**
 	 * Overridden methods below created to control background music
 	 */
-	   @Override
+	 
+	@Override
 	   //Background music is free: djpretzel, Vigilante - Short Skirts (Tifa's Theme).mp3
+	  
 	   protected void onResume() {
 	      super.onResume();
 	      Music.play(this, R.raw.game);
@@ -349,6 +351,8 @@ public class GamePlay extends Activity implements OnClickListener{
 	   protected void onPause() {
 	      super.onPause();
 	      Music.stop(this);
+	      MusicNoLoop.stopMe(this);
 	   }
+	   
 	
 }
